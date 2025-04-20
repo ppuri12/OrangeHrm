@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite thread-count="2" parallel="none" name="Deals"> -->
+<suite thread-count="4" name="MyTest">
+
+    <test name="Verify test Scenario">
+        <classes>
+            <class name="OrangeHRMTest">
+                <methods>
+                    <include name="verifyAddingCandidate"/>
+                </methods>
+            </class>
+            <!-- <class name="com.tekioncloud.sales.test.regression.web.Deals.testcases.DealsCustomerListTestCases" -->
+        </classes>
+    </test>
+</suite> <!-- Suite -->
